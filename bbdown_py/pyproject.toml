@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbdown"
+version = "1.6.3"
+description = "BBDown - 哔哩哔哩下载/解析工具 (Python版)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27.0",
+    "qrcode[pil]>=7.4",
+    "protobuf>=5.27.0",
+    "click>=8.1.0",
+    "uvicorn>=0.30.0",
+    "starlette>=0.37.0",
+]
+
+[project.scripts]
+bbdown = "bbdown.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bbdown*"]
