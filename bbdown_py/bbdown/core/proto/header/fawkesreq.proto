@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+option py_generic_services = true;
+
+message FawkesReq {
+    optional string appkey = 1;
+    optional string env = 2;
+    optional string sessionId = 3;
+}
