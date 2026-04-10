@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: bbdown
+Version: 1.6.3
+Summary: BBDown - 哔哩哔哩下载/解析工具 (Python版)
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: qrcode[pil]>=7.4
+Requires-Dist: protobuf>=5.27.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: uvicorn>=0.30.0
+Requires-Dist: starlette>=0.37.0

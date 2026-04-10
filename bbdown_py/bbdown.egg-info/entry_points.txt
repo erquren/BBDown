@@ -1,0 +1,2 @@
+[console_scripts]
+bbdown = bbdown.__main__:main

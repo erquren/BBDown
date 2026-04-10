@@ -1,0 +1,6 @@
+httpx>=0.27.0
+qrcode[pil]>=7.4
+protobuf>=5.27.0
+click>=8.1.0
+uvicorn>=0.30.0
+starlette>=0.37.0
